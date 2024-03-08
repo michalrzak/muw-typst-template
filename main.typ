@@ -2,16 +2,18 @@
 
 // README
 // ---------------------------------------------
-// Before writting the thesis definetly check out the guide
-// at https://ub.meduniwien.ac.at/fileadmin/content/OE/ub/dokumente/Leitfaden_Studierende_Hochschulschriften_MedUni_Wien.pdf
-// You are for example required to have a list of abbreviations
-// in your document, if any abbreviations are used.
+// Before writting the thesis definetly check out the guide at
+// https://ub.meduniwien.ac.at/fileadmin/content/OE/ub/dokumente/Leitfaden_Studierende_Hochschulschriften_MedUni_Wien.pdf
+// 
+// You are for example required to have a list of abbreviations in your document, if any are used.
 // For this simply fill out the appropriate field in the initialization.
-// Most of the requirements are already automatically applied
-// by the template.
+// 
+// This template should automatically take care of any requirements, if you fins something missing, contributions are
+// welcome.
 //  
-// NOTE: You might need to disable the printing of List of Figures / List of Tables / List of Formulas depending on if you use them. You can do this with the appropriate parameters.
-
+// NOTE: You might need to disable the printing of List of Figures / List of Tables / List of Formulas depending on
+// if you are using them in your thesis. You can do this with the appropriate parameters.
+//
 // ---------------------------------------------
 
 // Customize the following fields with your data!
@@ -44,16 +46,13 @@
     B: "B stands for bannana"
   ), 
   bibfile: "bibliography.bib",
-  // This is needed as there is no way I know of to dynamically find out if tables/figures/equations were used and only print the list then.
+  // This is needed as there is no way (I know of) to dynamically find if tables/figures/equations
+  //  were used and only print the lists then.
   // Simply disable the ones you do not need.
   skip_figure_list: false,
   skip_table_list: false,
   skip_formula_list: false,
 )
-
-// We generated the example code below so you can see how
-// your document will look. Go ahead and replace it with
-// your own content!
 
 = Introduction
 #lorem(60)
