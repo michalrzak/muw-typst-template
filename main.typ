@@ -13,7 +13,6 @@
 //  
 // NOTE: You might need to disable the printing of List of Figures / List of Tables / List of Formulas depending on
 // if you are using them in your thesis. You can do this with the appropriate parameters.
-//
 // ---------------------------------------------
 
 // Customize the following fields with your data!
