@@ -1,0 +1,20 @@
+on:
+  push:
+    paths:
+      - 'main.typ'
+
+jobs:
+  build_typst:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build Typst files
+        uses: HackingGate/typst-out@v1
+        with:
+          typst_ref: main
+          retention_days: 1
+          artifacts_name: main
+          output_extensions: pdf
+          template_file: template.typ
