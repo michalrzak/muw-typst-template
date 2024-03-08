@@ -9,7 +9,7 @@
 // For this simply fill out the appropriate field in the initialization.
 // Most of the requirements are already automatically applied
 // by the template.
-// 
+//  
 // NOTE: You might need to disable the printing of List of Figures / List of Tables / List of Formulas depending on if you use them. You can do this with the appropriate parameters.
 
 // ---------------------------------------------
