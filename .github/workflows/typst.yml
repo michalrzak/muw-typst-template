@@ -1,8 +1,7 @@
 on:
   push:
     paths:
-      - '***.typ'
-
+      - '**.typ'
 jobs:
   build_typst:
     runs-on: ubuntu-latest
