@@ -276,11 +276,8 @@
   if abbreviations != () {
     heading(numbering: none, "List of Abbreviations")
     linebreak()
-    for key in abbreviations.keys() {
-      text(weight: 700, key)
-      ": "
-      abbreviations.at(key)
-      linebreak()
+    for key in abbreviations.keys().sorted() {
+      [/ #key: #abbreviations.at(key)]
     }
     pagebreak()
   }
