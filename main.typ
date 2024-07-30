@@ -2,7 +2,7 @@
 
 // README
 // ---------------------------------------------
-// Before writting the thesis definetly check out the guide at
+// Before writing the thesis definitely check out the guide at
 // https://ub.meduniwien.ac.at/fileadmin/content/OE/ub/dokumente/Leitfaden_Studierende_Hochschulschriften_MedUni_Wien.pdf
 // 
 // You are for example required to have a list of abbreviations in your document, if any are used.
