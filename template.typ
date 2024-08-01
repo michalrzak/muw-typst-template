@@ -12,7 +12,7 @@
   your_orcid: "",
   date: "",
   place: "",
-  acknowledgements: [],
+  acknowledgments: [],
   motivation: [],
   abstract_en: [],
   abstract_de: [],
@@ -182,10 +182,10 @@
   pagebreak()
 
   // ------------------------------------
-  // Acknowledgements
-  if acknowledgements != []{
-    heading(outlined: false, numbering: none, text(0.85em)[Acknowledgements])
-    acknowledgements
+  // Acknowledgments
+  if acknowledgments != []{
+    heading(outlined: false, numbering: none, text(0.85em)[Acknowledgments])
+    acknowledgments
     pagebreak()
   }
 

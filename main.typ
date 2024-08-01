@@ -32,10 +32,10 @@
   // Example: `abstract: [This is my abstract...]`
   abstract_en: lorem(59),
   abstract_de: lorem(59),
-  // The acknowledgements and motivation are both optional fields.
+  // The acknowledgments and motivation are both optional fields.
   // If you do not need them in your thesis simply leave out the field.
   // Formatting same as abstract
-  acknowledgements: lorem(59),
+  acknowledgments: lorem(59),
   motivation: lorem(59), 
   // The abbreviations field is also optional.
   // If you need to use extend the dictionary with values as indicated
